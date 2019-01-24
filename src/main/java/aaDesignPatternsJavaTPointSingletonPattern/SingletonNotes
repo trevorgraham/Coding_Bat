@@ -1,0 +1,26 @@
+SINGLETON
+
+The Singleton design means that you "Define a class that has only one instance and provide a global
+point of access to it".
+There are two forms of this Early Instantiation (creation at load time) and Lazy Instantiation
+(instance created when needed).
+
+Advantages
+Saves memory as only one item is created and used again and again
+
+Usage
+Single patterns are mostly used in multi-threaded and database applications. Used for logging,
+caching, thread pools and configuration settings.
+
+How to create
+To create the singleton class, we need to have static member of class, private constructor and
+static factory method.
+
+Static member: It gets memory only once because of static, it contains the instance of the Singleton
+class.
+Private constructor: It will prevent to instantiate the Singleton class from outside the
+class.
+Static factory method: This provides the global point of access to the Singleton object and
+returns the instance to the caller.
+
+

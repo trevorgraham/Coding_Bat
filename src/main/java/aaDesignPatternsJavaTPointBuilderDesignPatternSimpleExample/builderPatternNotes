@@ -1,0 +1,17 @@
+Builder Design Pattern
+
+IS used for constructing a complex object from simple objects using step by step approach. It is
+mostly used when creating a complex item can't easily be done in one step.
+
+Advantages
+1)  It provides clear seperation between the construction and representation of an object.
+2)  It provides better control over construction process.
+3)  It supports to change the internal representation of an object
+
+Steps
+1)  create a Packing interface.
+2)  create 2 abstract classes CD and Company
+3)  create 2 implementation classes of Company: Sony and Samsung
+4)  create the CDType class
+5)  create the CDBuilder class
+6)  create the BuilderDemo class
